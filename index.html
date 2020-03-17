@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
+    <script src=script.js></script>
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div class="container-fluid">
+        <div class="col-sm-4" id="cities">
+            <h3>Search for a city:</h3>
+        <div class="input-group" >
+            <input class="form-control" id="search" placeholder="search....">
+            <div class="input-group-addon"><button class="search"><i class="fa fa-search"></i></button></div>
+        </div>
+           <div class="btn">
+                <button class="city" value="New York">New York</button>
+            <br>
+                <button class="city" value="Moscow">Moscow</button>
+            <br>
+                <button class="city" value="Istanbul">Istanbul</button>
+            <br>
+                <button class="city" value="London">London</button>
+            <br>
+                <button class="city" value="Paris">Paris</button>
+            <br>
+                <button class="city" value="Tokyo">Tokyo</button>
+            <br>
+                <button class="city" value="Barcelona">Barcelona</button>
+            <br>
+                <button class="city" value="Dubai">Dubai</button>
+            <br>
+                <button class="city" value="Rome">Rome</button>
+            </div>
+        </div>
+        <div class="col-sm-8" id="info">
+
+            <div id="currentCity"></div>
+
+                <h1>5-Day Forecast:</h1>
+
+                    <div class="card-deck">
+                        <div class="card bg-primary">
+                          <div class="card-body text-center dayOne" >
+                          </div>
+                        </div>
+                        <div class="card bg-primary">
+                            <div class="card-body text-center dayTwo">
+                            </div>
+                          </div>
+                          <div class="card bg-primary" >
+                            <div class="card-body text-center dayThree">
+                            </div>
+                          </div>
+                          <div class="card bg-primary">
+                            <div class="card-body text-center dayFour">
+                            </div>
+                          </div>
+                          <div class="card bg-primary">
+                            <div class="card-body text-center dayFive">
+                            </div>
+                          </div>
+                      </div>
+        </div>
+    </div>
+</body>
+</html>

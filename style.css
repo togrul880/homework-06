@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(54, 55, 56);
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+.city {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+.btn {
+    margin-top: 5px;
+    width: 100%;
+}
+#cities {
+    background-color:lightgray ;
+}
+#currentCity {
+    background-color:whitesmoke;
+    border: 2px solid darkgray;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+
+
