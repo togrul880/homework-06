@@ -45,6 +45,7 @@ var queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + queryTerm 
       var cityUvi = $('<p>').text('UV Index: ');
       cityUvi.append(uviValue); 
       currentCity.append(cityUvi);
+      uviValue.css({'background': 'red', 'padding': '4px', 'border-radius': '5px'});
     })
     // 5 day api request
     var forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?q=" + queryTerm + "&appid=" + apiKey;
@@ -127,6 +128,7 @@ var dayFive = $('.dayFive');
           var cityUvi = $('<p>').text('UV Index: ');
           cityUvi.append(uviValue); 
           currentCity.append(cityUvi);
+          uviValue.css({'background': 'red', 'padding': '4px', 'border-radius': '5px'});
         })
 
         // 5 day api request
